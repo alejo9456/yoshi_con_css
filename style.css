@@ -1,0 +1,127 @@
+html,
+body {
+  background-image: url(fondo.jpg);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+.yoshi{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+/* head yoshi*/
+.yoshi__upperface{
+    width: 113px;
+    height: 134px;
+    background: #47cf73;
+    border-radius: 161px / 148px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yoshi__underside{
+    width: 300px;
+    height: 134px;
+    display: flex;
+
+}
+
+.yoshi__eyes{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.yoshi__eye{
+    width: 30px;
+    height: 100%;
+    background: #fff;
+    border-radius: 100px / 140px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.yoshi__eye__iris{
+    position: relative;
+    width: 14px;
+    height: 80%;
+    background: #000;
+    border-radius: 127px / 140px;
+}
+
+.yoshi__left{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    left: 67px;
+    top: -34px;
+    z-index: 35;
+}
+.yoshi__right{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    right: 67px;
+    top: -34px;
+    z-index: 30;
+}
+
+
+.yoshi__nose {
+    position: relative;
+    width: 174px;
+    height: 140px;
+    background: #47cf73;
+    top: -54px;
+    z-index: 100;
+    border-radius: 75px;
+}
+
+
+.left_eyes{
+    transition: 0.3s;
+    left: -5px;
+}
+
+.top_eyes{
+    transition: 0.3s;
+    top: -5px;
+}
+
+.bottom_eyes{
+    transition: 0.3s;
+    bottom: -5px;
+}
+
+.right_eyes{
+    transition: 0.3s;
+    right: -5px;
+}
+
+
+
